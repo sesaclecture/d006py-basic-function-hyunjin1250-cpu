@@ -11,6 +11,8 @@ def mul(a, b):
 
 
 def div(a, b):
+    if a/b == 0 :
+        "ZeroDivisionError"
     return a/b
 
 def power(base, pow):
