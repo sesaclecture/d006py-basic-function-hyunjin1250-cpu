@@ -11,7 +11,7 @@ def mul(a, b):
 
 
 def div(a, b):
-    if a/b == 0 :
+    if a == 0 :
         "ZeroDivisionError"
     return a/b
 
